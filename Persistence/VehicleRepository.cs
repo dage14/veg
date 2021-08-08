@@ -97,18 +97,7 @@ namespace veg.Persistence
            
         }
     
-      /* private IQueryable<Vehicle> ApplyOrdering(VehicleQuery queryObj, IQueryable<Vehicle> query , Dictionary<string, Expression<Func<Vehicle, object>>> columnsMap){
-           
-           if(queryObj.IsSortAscending){
-               return query = query.OrderBy(columnsMap[queryObj.SortBy]);
-           }
-                
-            else
-                {
-                    return query = query.OrderByDescending(columnsMap[queryObj.SortBy]);
-                }
-
-        }*/
+   
 
     }
 }
